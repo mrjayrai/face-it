@@ -659,7 +659,10 @@ body::-webkit-scrollbar{
 	background: rgba(0, 0, 0, 0.6);
 	/* color: #ffffff; */
   /* color: black; */
-  color: #ffbc13;
+  /* color: white; */
+  /* color: #ffbc13; */
+  color: #ff521b;
+  /* color: yellow; */
 	font-family: 'Quicksand', sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -687,7 +690,8 @@ body::-webkit-scrollbar{
 
 .image__overlay:hover {
 	opacity: 80%;
-  backdrop-filter: blur(3px) saturate(120%);
+  /* backdrop-filter: blur(3px) saturate(120%); */
+  backdrop-filter: blur(3px) saturate(100%);
 }
 
 .image__overlay:hover>* {
